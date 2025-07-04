@@ -31,14 +31,27 @@ body {
 }
 
 #navbar a {
+    position: relative;
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s ease;
+    padding-bottom: 4px;
 }
 
-#navbar a:hover {
-    color: #00ffff;
+/* Create the animated underline */
+#navbar a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0%;
+    background-color: #00ffff;
+    transition: width 0.3s ease;
+}
+
+#navbar a:hover::after {
+    width: 100%;
 }
 
 /* Welcome Section */
