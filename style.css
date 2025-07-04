@@ -78,6 +78,8 @@ body {
 
 /* Projects Section */
 #projects {
+    height: auto;
+    width: 100%;
     padding: 5em 2em;
     background-color: #282842;
     text-align: center;
@@ -91,7 +93,7 @@ body {
 .projects-grid {
     display: grid;
     gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
 }
 
 .project-tile {
@@ -109,12 +111,35 @@ body {
     width: 100%;
     display: block;
 }
-
+.project-tile a{
+    text-decoration: none;
+}
 .project-title {
+    color: white;
     padding: 1em;
     font-size: 1.2rem;
 }
 
+/* 🔥contact section */
+#contact{
+    width: 100%;
+    /* height: clamp(246px, 25vh, 560px); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+#contact .contact-links{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#contact .contact-links a{
+    text-decoration: none;
+    color: white;
+}
 /* Footer */
 footer {
     background-color: #1b1b32;
