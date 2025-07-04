@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>CSS Documentation</header>
+        <ol>
+            <li><a class="nav-link" href="#Introduction_to_CSS">Introduction to CSS</a></li>
+            <li><a class="nav-link" href="#Selectors_and_Properties">Selectors and Properties</a></li>
+            <li><a class="nav-link" href="#Box_Model">Box Model</a></li>
+            <li><a class="nav-link" href="#Positioning_and_Layout">Positioning and Layout</a></li>
+            <li><a class="nav-link" href="#Responsive_Design">Responsive Design</a></li>
+        </ol>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="Introduction_to_CSS">
+            <header>Introduction to CSS</header>
+            <p>CSS stands for Cascading Style Sheets and is used to style HTML content.</p>
+            <p>It controls the layout, colors, fonts, and overall presentation of web pages.</p>
+            <code>body { background-color: #f0f0f0; }</code>
+            <ul>
+                <li>CSS adds visual appeal to websites.</li>
+                <li>CSS can be internal, external, or inline.</li>
+                <li>CSS improves user experience.</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Selectors_and_Properties">
+            <header>Selectors and Properties</header>
+            <p>Selectors target HTML elements, and properties apply styles to them.</p>
+            <p>Common selectors include element, class, ID, and attribute selectors.</p>
+            <code>p { font-size: 16px; }</code>
+            <ul>
+                <li>Element Selector: targets all elements of a type.</li>
+                <li>Class Selector: targets elements with a specific class.</li>
+                <li>ID Selector: targets a unique element with an ID.</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Box_Model">
+            <header>Box Model</header>
+            <p>The CSS box model describes how elements are rendered in terms of space.</p>
+            <p>It includes margins, borders, padding, and content.</p>
+            <code>div { margin: 10px; padding: 15px; }</code>
+        </section>
+
+        <section class="main-section" id="Positioning_and_Layout">
+            <header>Positioning and Layout</header>
+            <p>CSS provides different positioning methods: static, relative, absolute, and fixed.</p>
+            <p>Layout models include Flexbox and Grid for responsive alignment.</p>
+            <code>.container { display: flex; justify-content: center; }</code>
+        </section>
+
+        <section class="main-section" id="Responsive_Design">
+            <header>Responsive Design</header>
+            <p>Responsive design ensures web content adapts to various screen sizes.</p>
+            <p>Media queries allow CSS to apply styles conditionally.</p>
+            <code>@media (max-width: 600px) { body { font-size: 14px; } }</code>
+        </section>
+    </main>
+</body>
+
+</html>
