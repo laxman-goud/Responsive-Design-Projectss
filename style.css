@@ -47,7 +47,6 @@ body {
     padding-bottom: 4px;
 }
 
-/* Create the animated underline */
 #navbar a::after {
     content: '';
     position: absolute;
@@ -92,7 +91,7 @@ body {
 
 .highlighter {
     background: linear-gradient(136deg, rgba(42, 123, 155, 1) 0%, rgba(33, 147, 235, 1) 38%, rgba(83, 237, 188, 1) 82%);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: background 0.4s ease;
 }
@@ -181,6 +180,12 @@ body {
 #contact .contact-links a {
     text-decoration: none;
     color: white;
+    transition: all 0.4s ease;
+}
+#contact .contact-links a:hover{
+    background: linear-gradient(136deg, rgba(42, 123, 155, 1) 0%, rgba(33, 147, 235, 1) 38%, rgba(83, 237, 188, 1) 82%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* Footer */
@@ -199,7 +204,7 @@ footer p {
     font-weight: 500;
     background: #b8b8b8;
     background: linear-gradient(174deg, rgba(184, 184, 184, 1) 0%, rgba(174, 196, 232, 1) 43%, rgba(107, 203, 219, 1) 91%);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: background 0.4s ease;
 }
