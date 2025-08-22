@@ -1,13 +1,13 @@
 
-# Responsive Design Projects
+# responsive-web-projects
 
-Welcome to the **Responsive Design Projects** repository!  
+Welcome to the **responsive-web-projects** repository!  
 This project is a collection of HTML and CSS-based mini projects that demonstrate core concepts of responsive web design. These projects are inspired by the **FreeCodeCamp Responsive Web Design Certification** and are fully functional, responsive, and creatively styled.
 
 ## 📁 Project Structure
 
 ```bash
-Responsive Design Projects/
+responsive-web-projects/
 ├── index.html               # Main homepage linking all projects
 ├── style.css                # Global styles
 ├── images/                  # Images used across projects
@@ -44,10 +44,22 @@ Each project folder includes HTML and CSS files focusing on specific design prin
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/laxman-goud/Responsive-Design-Projectss.git
+   git clone https://github.com/laxman-goud/responsive-web-projects.git
    ```
 2. Open `index.html` in your browser to view the main showcase.
 3. Navigate to each folder in `projects/` to explore the mini projects.
+
+## 🤝 Contributing
+
+Contributions are welcome! 🎉  
+
+Feel free to **fork this project**, open an **issue**, or submit a **pull request** with your improvements.  
+Please make sure your changes are clear, concise, and follow the contributing guidelines. 
+
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE.md).
 
 ## 🧑‍💻 Author
 
@@ -55,5 +67,3 @@ Each project folder includes HTML and CSS files focusing on specific design prin
 GitHub: [@laxman-goud](https://github.com/laxman-goud)
 
 ---
-
-🌟 If you like this repo, give it a ⭐ and share it!
